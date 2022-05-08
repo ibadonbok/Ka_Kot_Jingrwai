@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splash_screen">
+
+
+    <TextView
+        android:id="@+id/s1"
+        android:layout_width="392dp"
+        android:layout_height="197dp"
+        android:layout_marginTop="16dp"
+        android:text="KA KOT JINGRWAI\n\n\tBAN MANE IA U BLEI\n\nHA RI KHASI BAD JAINTIA"
+        android:textAlignment="center"
+        android:textColor="#75A2C6"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/s2"
+        android:layout_width="369dp"
+        android:layout_height="92dp"
+        android:layout_marginBottom="20dp"
+        android:text="Ngan rwai da la ka dohnud\n\n&quot;Ngan rwai da la ka jingshemphang ruh de.&quot;"
+        android:textAlignment="center"
+        android:textColor="#C8A438"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/simage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.402"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/paul"
+        android:layout_width="51dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="333dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="320dp"
+        android:text="PAUL"
+        android:textAlignment="viewEnd"
+        android:textColor="#3B4581"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/s2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/simage"
+        android:layout_width="146dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="-100dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/presbyterian"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78" />
+
+    <TextView
+        android:id="@+id/s3"
+        android:layout_width="338dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="60dp"
+        android:text="2022"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/simage" />
+
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ka Kot Jingrwai01</string>
+    <string name="welcome">WELCOME</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">SIGN UP</string>
+</resources>

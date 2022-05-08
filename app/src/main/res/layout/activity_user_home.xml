@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rangthong"
+    tools:context=".user_home"
+    android:padding="30dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/homepage"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:text="HomePage"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+
+        <Button
+            android:id="@+id/number"
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:text="Number" />
+
+        <Button
+            android:id="@+id/khorus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="khorus" />
+
+        <Button
+            android:id="@+id/khynnah"
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:text="Ki Jingrwai iaki khynnah" />
+
+        <Button
+            android:id="@+id/samla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ki Jingrwai ia ki Samla" />
+
+        <Button
+            android:id="@+id/revival"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ki Jingrwai Revival" />
+
+        <Button
+            android:id="@+id/pynwai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ki jIngrwai Pynwai" />
+
+        <Button
+            android:id="@+id/kurim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ka Jing Kyntiew Kurim" />
+
+        <Button
+            android:id="@+id/iap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ka Jingiap" />
+
+        <Button
+            android:id="@+id/christmas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHRISTMAS" />
+
+        <Button
+            android:id="@+id/notepad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notepad" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:text="Log Out"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/userProfileButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+    </LinearLayout>
+
+</ScrollView>
